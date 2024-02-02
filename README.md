@@ -1,42 +1,44 @@
 # BEM
-- Là tiêu chuẩn đặt tên class khi viết CSS.
+- The naming standard for writing CSS.
 
-## Ý nghĩa:
-- Viết tắt của: Block Element Modifier.
-    + Block: Khối.
-    + Element: Thành phần trong khối.
-    + Modifier: Bổ sung ý nghĩa cho `Block` hoặc `Element`.
+## Meaning:
+- Abbreviation for: Block Element Modifier.
+    + Block: Container.
+    + Element: Component within the container.
+    + Modifier: Adds meaning to a Block or Element.
 
-## Tại sao phải dùng BEM?
-- Mỗi người đặt một kiểu.
-- Members đặt class trùng nhau, CSS đè lên nhau.
+## Why use BEM?
+- Consistency in naming conventions.
+- Avoids conflicts when multiple developers work on the same project.
 
-## Cú pháp
+- Prevents CSS styles from being overridden by others.
+
+## Syntax
 - .block
 - .block__element
 
 - .block--modifier
 - .block__element--modifier
 
-## Tính ứng dụng
-- Xây dựng layout website.
-- Xây dựng thành phần trên website.
+## Applications
+- Building website layouts.
+- Constructing components on a website.
 
-## Ưu điểm
-- Tính rõ ràng.
-- Tái sử dụng dễ dàng.
-- Giúp cả team làm việc với nhau dễ dàng.
-- Tính module, không lo CSS của class này ảnh hưởng lên CSS của class khác.
+## Advantages
+- Clear and consistent naming.
+- Easy reusability of code.
+- Facilitates collaboration within a team.
+- Encourages a modular approach, reducing the risk of style conflicts.
 
-## Nhược điểm
-- Tên class dài.
-- Một số người cho là xấu.
+## Disadvantages
+- Longer class names.
+- Some find it visually unappealing.
 
-## Khi nào dùng BEM là PHÙ HỢP?
-- Dự án nhiều members.
-- Dự án lớn, số lượng pages nhiều hoặc số lượng các thành phần trên giao diện nhiều.
+## When is BEM suitable?
+- Large projects with multiple team members.
+- Projects with numerous pages or a high number of interface components.
 
-## Thực hành
-- Làm button.
-- Làm message.
-- Làm một thành phần trên website.
+## Practical examples
+- Creating a button.
+- Designing a message.
+- Developing a component for a website.
