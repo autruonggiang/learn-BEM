@@ -40,5 +40,13 @@
 
 ## Practical examples
 - Creating a button.
+    + Enabled: Pointer, hover effect.
+    + Disabled: Arrow, no effect.
 - Designing a message.
 - Developing a component for a website.
+
+## Nested Blocks in BEM
+In cases where a Block contains another Block:
+
+- The child Block serves as a shared component.
+- The child Block contains multiple elements.
