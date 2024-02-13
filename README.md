@@ -54,3 +54,6 @@ In cases where a Block contains another Block:
 ## References
 - https://codepen.io/ng-ngc-sn-the-bashful/pen/VwKXNyK
 - https://codepen.io/ng-ngc-sn-the-bashful/pen/Exgmxqp
+- https://getbem.com/introduction/
+- https://dev.to/arshadayvid/write-structured-css-using-bem-syntax-16gd
+- https://www.geeksforgeeks.org/understanding-the-css-bem-convention/
